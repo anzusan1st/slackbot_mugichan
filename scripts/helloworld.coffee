@@ -12,4 +12,12 @@ module.exports = (robot) ->
   robot.hear /しんどい/i, (msg) ->
     msg.send "それな"
 
+  robot.hear /mugi/i, (msg) ->
+    msg.send "mugimugi"
+
+  robot.hear /帰りたい/i, (msg) ->
+    msg.send ":sorena:"
+
+  robot.hear /テスト/i, (msg) ->
+    msg.send "[テス/テステス,テステステス]"
 
