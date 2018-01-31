@@ -6,6 +6,8 @@
 
 
 module.exports = (robot) ->
-  robot.respond /HELLO WORLD$/i,(msg) ->
-    msg.send "Welvome to Underground!"
+  robot.respond /こんにちは/i,(msg) ->
+    msg.send "よ　う　こ　そ"
+
+
 
