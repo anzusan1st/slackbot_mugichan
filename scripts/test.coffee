@@ -6,7 +6,5 @@
 
 module.exports = (robot) ->
   robot.hear /テスト/i, (msg) ->
-    rand = ['テス', 'テステス', 'テストです']
-    msg.send msg.random rand
-
+    msg.send "test"
 

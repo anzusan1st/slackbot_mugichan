@@ -1,5 +1,4 @@
 #!/bin/sh
-export HUBOT_SLACK_TOKEN=xoxb-306927270245-pTEBlhrqr3YYzkxcccYRhp7G
 
 npm install
 
