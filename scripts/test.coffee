@@ -14,5 +14,5 @@ module.exports = (robot) ->
       'ﾃｴｴｴｴｪｪｪｪｪｪｪｪｽﾄｫｫｫｫｫｫｫ!!!!!!'
     ]
     result = tests[random(3)]
-    msg.send "テスト：#{result}"
+    msg.send "#{result}"
 
