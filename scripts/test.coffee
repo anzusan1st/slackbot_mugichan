@@ -4,6 +4,8 @@
 # Commands:
 #   hubot Hello World - reply with <Welcome to Underground!>
 
+random = (n) -> Math.floor(Math.random() * n)
+
 module.exports = (robot) ->
   robot.hear /テスト/i, (msg) ->
     tests = [
