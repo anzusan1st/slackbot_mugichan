@@ -6,5 +6,11 @@
 
 module.exports = (robot) ->
   robot.hear /テスト/i, (msg) ->
-    msg.send "test"
+    tests = [
+      'テス',
+      'テステス',
+      'ﾃｴｴｴｴｪｪｪｪｪｪｪｪｽﾄｫｫｫｫｫｫｫ!!!!!!'
+    ]
+    result = tests[random(3)]
+    msg.send "#{result}"
 
